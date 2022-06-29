@@ -8,14 +8,14 @@ import App from './App'
  * 
  * QueryClient 사용 위해 queryClient 선언
  * **/
-import { QueryClient, QueryClientProvider } from 'react-query'
-import { ReactQueryDevtools } from 'react-query/devtools'
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
-)
+);
 
 /** 
  * QueryClientProvider, ReactQueryDevtools 후, 'App.tsx' rendering
@@ -28,4 +28,4 @@ root.render(
       <App />
     </QueryClientProvider>
   </React.StrictMode>
-)
+);

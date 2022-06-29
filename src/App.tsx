@@ -1,8 +1,15 @@
+import React from 'react';
+import styled from 'styled-components';
+import GlobalStyles from './themes/globalStyles';
+import TripleLogo from './images/triple2x.png';
 
-export default function App() {
+const App = () => {
   return (
-    <div className="App">
-      안녕
+    <div className='App'>
+      <GlobalStyles />
+      <img src={TripleLogo} className='Triple-logo' alt='Not Found' />
     </div>
-  )
+  );
 }
+
+export default App;
