@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import TripleLogo from '../images/triple2x.png';
+import ContentLogo from '../images/triple2x.png';
 
-const TripleLogoStyle = styled.div`
+const ContentLogoStyle = styled.div`
   position: absolute;
   width: 400px;
   height: 338px;
@@ -12,7 +12,7 @@ const TripleLogoStyle = styled.div`
   color: "rgba(58, 58, 58, 0.7)";
   background-size: 400px 338px;
   background-repeat: no-repeat;
-  background-image: url(${TripleLogo});
+  background-image: url(${ContentLogo});
 `;
 
-export default TripleLogoStyle;
+export default ContentLogoStyle;

@@ -18,11 +18,18 @@ const GlobalStyles = createGlobalStyle`
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    height: 100%;
   }
 
   * {
     box-sizing: border-box;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+
+  strong {
+    font-weight: bold;
   }
 `;
 
