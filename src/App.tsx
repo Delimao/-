@@ -9,6 +9,7 @@ const MainStyle = styled.div`
   display: flex;
   position: relative;
   width: 1200px;
+  min-width: 1200px;
   height: auto;
   margin-left: 140px;
   margin-top: 140px;

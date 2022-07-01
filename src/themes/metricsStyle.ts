@@ -5,7 +5,7 @@ const MetricsStyle = styled.div`
   font-size: 36px;
   letter-spacing: -1px;
   margin-bottom: 20px;
-  color: "rgba(58, 58, 58)";
+  color: rgba(58, 58, 58);
 `;
 
 export default MetricsStyle;

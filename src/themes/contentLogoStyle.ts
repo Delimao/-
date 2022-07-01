@@ -9,7 +9,7 @@ const ContentLogoStyle = styled.div`
   text-align: center;
   font-family: sans-serif;
   font-size: 15px;
-  color: "rgba(58, 58, 58, 0.7)";
+  color: rgba(58, 58, 58, 0.7);
   background-size: 400px 338px;
   background-repeat: no-repeat;
   background-image: url(${ContentLogo});
