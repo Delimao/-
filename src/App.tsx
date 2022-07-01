@@ -1,14 +1,25 @@
-import React from 'react';
 import styled from 'styled-components';
 import GlobalStyles from './themes/globalStyles';
-import TripleLogo from './images/triple2x.png';
+import TripleLogo from './themes/tripleLogoStyle';
+
+const MainStyle = styled.div`
+  display: flex;
+  position: absolute;
+  align-items: center;
+  min-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+`;
 
 const App = () => {
   return (
-    <div className='App'>
+    <>
       <GlobalStyles />
-      <img src={TripleLogo} className='Triple-logo' alt='Not Found' />
-    </div>
+        <TripleLogo>
+          2021년 12월 기준
+        </TripleLogo>
+    </>
   );
 }
 
