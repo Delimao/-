@@ -3,3 +3,5 @@ function easeOutExpo(x: number): number {
 }
 
 export default easeOutExpo;
+
+// https://easings.net/ - 출처

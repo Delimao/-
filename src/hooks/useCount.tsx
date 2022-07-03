@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import EaseOut from '../easeing/EaseOutExpo'
+import EaseOut from '../components/EaseOutExpo'
 
 const useCount = ( num: number ): number => {
   const [ count, setCount ] = useState(0);
@@ -8,14 +8,14 @@ const useCount = ( num: number ): number => {
   useEffect(() => {
     const duration = 2000;
     const frameRate = 1000 / 60;
-    const stepTime = Math.round(Math.floor( duration / frameRate ));
+    const stepTime = Math.round( duration / frameRate );
     let currentNumber = count;
 
     const counter = setInterval(() => {
       const progress = EaseOut( ++currentNumber / stepTime );
       setCount(Math.round( num * progress ));
 
-      if(progress === 1)
+      if(currentNumber === stepTime)
         clearInterval(counter);
     }, frameRate);
   }, [num]);
