@@ -9,7 +9,7 @@ const MainStyle = styled.div`
   position: relative;
   width: 1200px;
   min-width: 1200px;
-  height: auto;
+  height: 100%;
   margin-left: 140px;
   margin-top: 140px;
 `;
@@ -22,16 +22,16 @@ const App = () => {
   return (
     <>
       <GlobalStyles />
-
       <MainStyle>
-        
+          {/* 트리플 로고 출력 */}
           <ContentLogo />
-
+          {/* margin-left로 위치 조절 */}
           <LeftMargin>
+            {/* Metrics 출력 */}
             <Metrics />
+            {/* Awards 출력 */}
             <Awards />
           </LeftMargin>
-
       </MainStyle>
     </>
   );
