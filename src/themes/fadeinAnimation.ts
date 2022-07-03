@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// duration 700ms, ease-in-out, keyframes으로 fadein 구현
 const FadeinAnimation = styled.div`
   opacity: 0;
 
