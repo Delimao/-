@@ -3,7 +3,7 @@ import ContentLogo from '../themes/contentLogoStyle';
 const Logo = () => {
   return (
     <>
-      <ContentLogo>
+      <ContentLogo title="트리플 로고">
         2021년 12월 기준
       </ContentLogo>
     </>
