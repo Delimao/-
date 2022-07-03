@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const FadeinAnimation = styled.div`
   opacity: 0;
-  
+
   animation: fadein 700ms ease-in-out;
   animation-fill-mode: forwards;
 
@@ -25,6 +25,8 @@ const FadeinAnimation = styled.div`
       transform: translateY(0px);
     }
   }
+
+  /* FireFox */
   @-moz-keyframes fadein {
     from {
       opacity: 0;
@@ -36,6 +38,7 @@ const FadeinAnimation = styled.div`
     }
   }
 
+  /* Safari and Chrome */
   @-webkit-keyframes fadein {
     from {
       opacity: 0;
@@ -47,6 +50,7 @@ const FadeinAnimation = styled.div`
     }
   }
 
+  /* Opera */
   @-o-keyframes fadein {
     from {
       opacity: 0;

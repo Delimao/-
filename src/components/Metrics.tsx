@@ -2,16 +2,20 @@ import Metric from '../themes/metricsStyle';
 import useCount from '../hooks/useCount';
 
 const Metrics = () => {
+  const people = useCount(700);
+  const review = useCount(100);
+  const calender = useCount(470);
+
   return(
     <>
       <Metric>
-        <strong>{useCount(700)}만 명</strong>의 사용자
+        <strong>{people}만 명</strong>의 사용자
       </Metric>
       <Metric>
-        <strong>{useCount(100)}만 개</strong>의 여행 리뷰
+        <strong>{review}만 개</strong>의 여행 리뷰
       </Metric>
       <Metric>
-        <strong>{useCount(470)}만 개</strong>의 여행 일정
+        <strong>{calender}만 개</strong>의 여행 일정
       </Metric>
     </>
   );
