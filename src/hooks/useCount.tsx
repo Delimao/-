@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import EaseOut from '../components/EaseOutExpo'
+import EaseOut from '../animations/EaseOutExpo'
 
 const useCount = ( num: number ): number => {
   const [ count, setCount ] = useState(0);
