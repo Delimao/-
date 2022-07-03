@@ -1,18 +1,20 @@
 import styled from 'styled-components';
 import Fadein from './fadeinAnimation';
 import AwardStoreLogo from '../images/play-store2x.png';
+import { GRAY800 } from './color';
 
+// fadeinAnimation.ts 상속
 const AwardStoreStyle = styled(Fadein)`
   display: inline-block;
-  height: 54px;
   padding: 5px 0px 5px 62px;
-  line-height: 22px;
   margin-top: 30px;
   margin-right: 39px;
+  line-height: 22px;
+  height: 54px;
 
   font-family: sans-serif;
   font-weight: bold;
-  color: rgba(58, 58, 58, 0.8);
+  color: ${ GRAY800 };
 
   background-size: 54px 54px;
   background-position: left top;

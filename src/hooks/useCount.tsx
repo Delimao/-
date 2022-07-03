@@ -13,8 +13,12 @@ const useCount = ( num: number ): number => {
 
     const counter = setInterval(() => {
       const progress = EaseOut( ++currentNumber / stepTime );
+      
+      // num * progress로 숫자 점점 느려짐 (EaseOut)
       setCount(Math.round( num * progress ));
 
+      // currentNumber가 stepTime과 같을 때 clearInterval
+      // if(progress === 1)
       if(currentNumber === stepTime)
         clearInterval(counter);
     }, frameRate);

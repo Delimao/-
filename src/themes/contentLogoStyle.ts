@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import Fadein from './fadeinAnimation';
 import ContentLogo from '../images/triple2x.png';
+import { GRAY700 } from './color';
 
+// fadeinAnimation.ts 상속
 const ContentLogoStyle = styled(Fadein)`
   position: absolute;
   width: 400px;
@@ -11,7 +13,7 @@ const ContentLogoStyle = styled(Fadein)`
   text-align: center;
   font-family: sans-serif;
   font-size: 15px;
-  color: rgba(58, 58, 58, 0.7);
+  color: ${ GRAY700 };
 
   background-size: 400px 338px;
   background-repeat: no-repeat;
