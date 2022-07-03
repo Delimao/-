@@ -1,5 +1,4 @@
-import AwardStore from '../themes/awardStoreStyle';
-import AwardApple from '../themes/awardAppleStyle';
+import { AwardStore, AwardApple } from '../themes/awardsStyle';
 
 const Awards = () => {
   return (
