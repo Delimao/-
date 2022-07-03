@@ -1,10 +1,53 @@
 import styled from 'styled-components';
 
 const FadeinAnimation = styled.div`
-  animation: fadein 700ms;
-  animation-timing-function: ease-in-out;
+  opacity: 0;
+  
+  animation: fadein 700ms ease-in-out;
+  animation-fill-mode: forwards;
+
+  -moz-animation: fadein 700ms ease-in-out; /* FireFox */
+  -moz-animation-fill-mode: forwards; /* FireFox */
+
+  -webkit-animation: fadein 700ms ease-in-out; /* Safari and Chrome */
+  -webkit-animation-fill-mode: forwards; /* Safari and Chrome */
+
+  -o-animation: fadein 700ms ease-in-out; /* Opera */
+  -o-animation-fill-mode: forwards; /* Opera */
   
   @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @-moz-keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  @-o-keyframes fadein {
     from {
       opacity: 0;
       transform: translateY(10px);
