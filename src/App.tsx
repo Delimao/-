@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import GlobalStyles from './themes/globalStyles';
+import GlobalStyles from './themes/GlobalStyles';
 import ContentLogo from './components/ContentLogo';
 import Awards from './components/Awards';
 import Metrics from './components/Metrics';
