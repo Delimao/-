@@ -1,5 +1,9 @@
 # 트리플 과제 테스트
 
+![ezgif-1-ec1bbbd59f](https://user-images.githubusercontent.com/67745406/177068789-bd54887b-8481-46b5-88d5-7c72a5d4c04f.gif)
+
+<br />
+
 트리플 과제 테스트 입니다.
 
 <br />
