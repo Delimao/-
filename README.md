@@ -71,4 +71,13 @@ npm이 설치 안 된 경우,
 
 ### `React --Typescript`
 
+웹 페이지의 한 부분을 구현했지만, 협업을 하면 type이 없는 React는 많은 에로사항이 생길 것 입니다...
+
+그것을 방지하기 위해 type을 명시하고 명시한 type에 따라 Visual Studio Code에서 관련 메소드들을 추천 받아 더욱 편하게 프로그래밍을 할 수 있는 Typescript를 선택했습니다.
+
 ### `styled-components`
+
+css 파일을 따로 생성하지 않고 css 컴포넌트를 사용해 style을 쉽게 재사용 할 수 있기 때문에 선택했습니다.
+
+또한, React Native를 사용한다면 styled-components를 사용해 웹, 모바일의 일관성 있는 스타일을 지원하기 때문에 더욱 매력적입니다.
+
