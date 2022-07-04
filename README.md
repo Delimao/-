@@ -20,6 +20,10 @@ git clone을 통해 로컬 저장소에 저장
 
 <br />
 
+### `yarn add styled-components`
+
+<br />
+
 ### `yarn start`
 
 <br />
