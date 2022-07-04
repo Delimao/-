@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Fadein from '../animations/fadeinAnimation';
-import { GRAY } from '../colors/colors';
+import Fadein from '../animations/FadeInAnimation';
+import { GRAY } from '../colors/Colors';
 
 // fadeinAnimation.ts 상속
 const MetricsStyle = styled(Fadein)`

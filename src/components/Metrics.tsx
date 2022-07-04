@@ -1,4 +1,4 @@
-import Metric from '../themes/metricsStyle';
+import Metric from '../themes/MetricsStyle';
 import useCount from '../hooks/useCount';
 
 const Metrics = () => {

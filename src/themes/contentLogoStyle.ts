@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Fadein from '../animations/fadeinAnimation';
+import Fadein from '../animations/FadeInAnimation';
 import ContentLogo from '../images/triple2x.png';
-import { GRAY700 } from '../colors/colors';
+import { GRAY700 } from '../colors/Colors';
 
 // fadeinAnimation.ts 상속
 const ContentLogoStyle = styled(Fadein)`

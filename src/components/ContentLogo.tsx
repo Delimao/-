@@ -1,4 +1,4 @@
-import ContentLogo from '../themes/contentLogoStyle';
+import ContentLogo from '../themes/ContentLogoStyle';
 
 const Logo = () => {
   return (

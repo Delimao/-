@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import Fadein from '../animations/fadeinAnimation';
+import Fadein from '../animations/FadeInAnimation';
 import Store from '../images/play-store2x.png';
 import Apple from '../images/badge-apple4x.png';
-import { GRAY800 } from '../colors/colors';
+import { GRAY800 } from '../colors/Colors';
 
 // fadeinAnimation.ts 상속
 const AwardStore = styled(Fadein)`
