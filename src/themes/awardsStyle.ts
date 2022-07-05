@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 import Fadein from '../animations/FadeInAnimation';
-import Store from '../images/play-store2x.png';
-import Apple from '../images/badge-apple4x.png';
+import { Apple, Store } from '../paths/ImagesPath';
 import { GRAY800 } from '../colors/Colors';
 
 // fadeinAnimation.ts 상속
-const AwardStore = styled(Fadein)`
+const AwardStore = styled( Fadein )`
   display: inline-block;
   padding: 5px 0px 5px 62px;
   margin-top: 30px;
@@ -20,13 +19,13 @@ const AwardStore = styled(Fadein)`
   background-size: 54px 54px;
   background-position: left top;
   background-repeat: no-repeat;
-  background-image: url(${Store});
+  background-image: url(${ Store });
 
   animation-delay: 200ms;
 `;
 
-const AwardApple = styled(AwardStore)`
-  background-image: url(${Apple});
+const AwardApple = styled( AwardStore )`
+  background-image: url(${ Apple });
 `;
 
 export { AwardStore, AwardApple };

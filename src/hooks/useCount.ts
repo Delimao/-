@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import EaseOut from '../animations/EaseOutExpo'
 
 const useCount = ( num: number ): number => {
-  const [ count, setCount ] = useState(0);
+  const [ count, setCount ] = useState<number>(0);
 
   // useEffect dependency를 prop으로 설정, 호출시 자동 실행
   useEffect(() => {

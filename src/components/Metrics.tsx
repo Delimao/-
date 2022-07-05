@@ -9,13 +9,13 @@ const Metrics = () => {
   return(
     <>
       <Metric>
-        <strong>{people}만 명</strong>의 사용자
+        <strong>{ people }만 명</strong>의 사용자
       </Metric>
       <Metric>
-        <strong>{review}만 개</strong>의 여행 리뷰
+        <strong>{ review }만 개</strong>의 여행 리뷰
       </Metric>
       <Metric>
-        <strong>{calender}만 개</strong>의 여행 일정
+        <strong>{ calender }만 개</strong>의 여행 일정
       </Metric>
     </>
   );

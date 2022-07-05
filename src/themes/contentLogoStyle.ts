@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import Fadein from '../animations/FadeInAnimation';
-import ContentLogo from '../images/triple2x.png';
+import { ContentLogo } from '../paths/ImagesPath';
 import { GRAY700 } from '../colors/Colors';
 
 // fadeinAnimation.ts 상속
-const ContentLogoStyle = styled(Fadein)`
+const ContentLogoStyle = styled( Fadein )`
   position: absolute;
   width: 400px;
   height: 338px;
@@ -17,7 +17,7 @@ const ContentLogoStyle = styled(Fadein)`
 
   background-size: 400px 338px;
   background-repeat: no-repeat;
-  background-image: url(${ContentLogo});
+  background-image: url(${ ContentLogo });
 `;
 
 export default ContentLogoStyle;
